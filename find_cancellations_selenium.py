@@ -17,7 +17,8 @@ from info import licenceNumber as DR_LIC_NUM
 from info import theoryNumber as APP_REF_NUM 
 from info import myTestDateString as CURRENT_TEST_TEXT
 CURRENT_TEST_DATETIME = datetime.strptime(CURRENT_TEST_TEXT, "%A %d %B %Y %I:%M%p")
-Path_chromedriver="/usr/lib/chromium-browser/chromedriver" #for linux
+#Path_chromedriver="/usr/lib/chromium-browser/chromedriver" #for linux
+Path_chromedriver="chromedriver.exe" #for windows
 
 #request user solution
 #error checking?
